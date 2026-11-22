@@ -92,7 +92,7 @@ enum Renderer {
         }
     }
 
-    /// Whether a point is on (or near) the shape — used by the eraser.
+    /// Whether a point is on (or near) the shape. Used by the eraser.
     static func hits(_ s: Shape, _ p: CGPoint) -> Bool {
         if s.kind == .text { return textRect(s).insetBy(dx: -6, dy: -6).contains(p) }
         let width = s.kind == .highlighter ? highlighterWidth(s.width) : s.width

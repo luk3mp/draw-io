@@ -62,7 +62,7 @@ struct ToolbarView: View {
                         .contentShape(Rectangle())
                 }
                 .buttonStyle(.plain)
-                .help("Thickness \(i + 1) — also sets text size (\(i + 1))")
+                .help("Thickness \(i + 1), also sets text size (\(i + 1))")
             }
 
             separator
@@ -104,7 +104,7 @@ struct ToolbarView: View {
             .frame(width: 58, height: 28)
             .help("When new drawings fade away")
 
-            IconButton(icon: "pin", help: "Keep everything on screen — stop it fading (K)") { c.keepAll() }
+            IconButton(icon: "pin", help: "Keep everything on screen, stop it fading (K)") { c.keepAll() }
             IconButton(icon: "arrow.uturn.backward", help: "Undo (⌘Z)") { c.undo() }
             IconButton(icon: "trash", help: "Clear everything (X  or  ⌃⌥C)") { c.clear() }
 
@@ -125,9 +125,9 @@ struct ToolbarView: View {
             .menuIndicator(.hidden)
             .fixedSize()
             .frame(width: 30, height: 28)
-            .help("Screenshot with your drawings — copied to the clipboard")
+            .help("Screenshot with your drawings, copied to the clipboard")
 
-            IconButton(icon: "xmark", help: "Stop drawing (Esc) — drawings stay on screen") { c.setDrawing(false) }
+            IconButton(icon: "xmark", help: "Stop drawing (Esc). Drawings stay on screen") { c.setDrawing(false) }
         }
         .padding(.horizontal, 8)
         .padding(.vertical, 6)
