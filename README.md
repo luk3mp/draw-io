@@ -78,7 +78,7 @@ You can also open **Draw IO** from Applications, Spotlight or Launchpad at any t
 Click the 📷 button in the toolbar, press **⌃⌥S**, or use the menu bar icon. Choose an **area** (drag a box) or the **whole screen**. Draw IO then:
 
 - copies the image to your clipboard, so you can paste it anywhere with **⌘V**
-- saves a PNG to **Pictures → Draw IO**
+- saves a PNG to **Pictures → Screenshots**
 - shows a pop-up with **Share…** (Messages, Mail, AirDrop, Slack…) and **Show** (opens it in Finder)
 
 ## Install guide
@@ -134,7 +134,7 @@ git pull
 
 ### Uninstalling
 
-Click the menu bar icon → **Quit Draw IO**, then drag **Draw IO** from Applications to the Bin. Screenshots are in **Pictures → Draw IO**.
+Click the menu bar icon → **Quit Draw IO**, then drag **Draw IO** from Applications to the Bin. Screenshots are in **Pictures → Screenshots**.
 
 ## Troubleshooting
 

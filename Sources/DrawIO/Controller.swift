@@ -138,7 +138,7 @@ final class Controller: NSObject, ObservableObject {
 
     var screenshotFolder: URL {
         FileManager.default.urls(for: .picturesDirectory, in: .userDomainMask)[0]
-            .appendingPathComponent("Draw IO", isDirectory: true)
+            .appendingPathComponent("Screenshots", isDirectory: true)
     }
 
     // MARK: - Setup
