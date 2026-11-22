@@ -118,7 +118,7 @@ The first time you take a screenshot, macOS will ask for **Screen Recording** pe
 
 You only need this for screenshots. Drawing on screen works without it.
 
-> Each time you rebuild the app, macOS treats it as a new app, so you may need to turn Screen Recording on again after updating.
+> `build.sh` signs the app with a local certificate it creates the first time you build, so macOS keeps this permission when you update and rebuild.
 
 ### 4. Open at login (optional)
 
